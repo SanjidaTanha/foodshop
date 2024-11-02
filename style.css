@@ -1,0 +1,426 @@
+body{
+    margin: 0px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/*..................... navbar start.................................................... */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.nav-menu {
+    display: flex;
+
+}
+.nav-ul {
+    display: flex;
+    color: rgb(70, 67, 67);
+    
+    
+}
+.nav-ul li {
+    list-style-type: none;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+.nav-ul li:hover{
+    text-decoration: underline;
+}
+
+.nav-menu i {
+   margin-left: 10px;
+   margin-right: 8px;
+   display: flex;
+   align-items: center;
+   color: rgb(109, 36, 10);
+   
+}
+
+.nav-menu i:hover {
+    color: black;
+}
+/* dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    
+    min-width: 160px;
+    
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropbtn {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 18px;
+    border: none;
+    align-items: center;
+    
+}
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+ 
+
+/* navbar text decoration */
+.food{
+    color: orangered;
+    font-size:x-large;
+    font-weight: bold;
+}
+.eat{
+    color: rgb(151, 48, 11);
+}
+
+/*............................ navbar end ...............................................*/
+
+
+
+/*................................ banner start......................................... */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+.banner-content {
+    flex: 1;
+    text-align: left;
+}
+.banner-img {
+    flex: 1;
+    text-align: right;
+}
+.banner-content p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.bnr-btn {
+    display: flex;
+    gap: 40px;
+}
+.bnr-btn-1{
+    color: white;
+    background-color: rgb(172, 93, 3);
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 16px;
+    border: none;
+}
+.bnr-btn-1:hover {
+    background-color: black ;
+}
+.bnr-btn-2{
+    color: white;
+    background-color: rgb(124, 120, 120);
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 16px;
+    border: none;
+}
+.bnr-btn-2:hover {
+    background-color: black ;
+}
+.banner-img img {
+    border: 1px solid rgb(222, 161, 161);
+    padding: 0;
+    border-radius: 50%;
+    box-shadow: 5px 5px 12px rgba(222, 161, 161, 0.931),
+    -5px -5px 12px rgba(222, 161, 161, 0.931);
+}
+/*................................... banner end.........................................*/
+
+
+/* ...................................cart start........................................ */
+.mn-title{
+    text-align: center;
+    margin: 28px auto;
+    padding: 100px;
+}
+.mn-title h1{
+    margin: 0;
+    line-height: 0;
+}
+.mn-title p{
+    font-size: small;
+    padding-top: 4px;
+}
+
+.cart{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+/* cart1 */
+.cart1{
+    background-color: rgba(254, 230, 230, 0.5);
+    padding-left:20px ;
+    padding-right: 20px;
+    border-radius: 40px;
+    border: 1px solid rgba(255, 216, 216, 0.5);
+    box-shadow: 5px 5px 12px rgba(255, 216, 216, 0.5),
+    -5px -5px 12px rgba(255, 216, 216, 0.5);
+}
+.cart1:hover {
+    border: 1px solid rgba(129, 100, 100, 0.5);
+    box-shadow: 5px 5px 12px rgba(129, 100, 100, 0.5),
+    -5px -5px 12px rgba(129, 100, 100, 0.5);
+    
+}
+.cart1-img {
+    display: flex;
+    justify-content: center;
+}
+.cart1 img{
+    margin-top: -60px;
+}
+.cart1-details-icon{
+    color: goldenrod;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    line-height: 0;
+}
+.item-name{
+    line-height: 0;
+}
+.price-add {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+.cart1-price {
+    font-weight: bold;
+
+}
+
+.fa-plus:hover {
+    color: rgb(151, 75, 23);
+    
+}
+
+/* cart-2 */
+.cart2{
+    background-color: rgba(254, 230, 230, 0.5);
+    padding-left:20px ;
+    padding-right: 20px;
+    border-radius: 40px;
+    margin-top: -30px;
+    border: 1px solid rgba(255, 216, 216, 0.5);
+    box-shadow: 5px 5px 12px rgba(255, 216, 216, 0.5),
+    -5px -5px 12px rgba(255, 216, 216, 0.5);
+}
+.cart2:hover {
+    border: 1px solid rgba(129, 100, 100, 0.5);
+    box-shadow: 5px 5px 12px rgba(129, 100, 100, 0.5),
+    -5px -5px 12px rgba(129, 100, 100, 0.5);
+    
+}
+.cart2-img{
+    display: flex;
+    justify-content: center;
+
+}
+.cart2-img img{
+    margin-top: -300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cart2-details{
+    margin-top:-80px ;
+}
+
+/* cart3 */
+.cart3{
+    background-color: rgba(254, 230, 230, 0.5);
+    padding-left:20px ;
+    padding-right: 20px;
+    border-radius: 40px;
+    border: 1px solid rgba(255, 216, 216, 0.5);
+    box-shadow: 5px 5px 12px rgba(255, 216, 216, 0.5),
+    -5px -5px 12px rgba(255, 216, 216, 0.5);
+}
+.cart3:hover {
+    border: 1px solid rgba(129, 100, 100, 0.5);
+    box-shadow: 5px 5px 12px rgba(129, 100, 100, 0.5),
+    -5px -5px 12px rgba(129, 100, 100, 0.5);
+    
+}
+.cart3-img{
+    display: flex;
+    justify-content: center;
+
+}
+.cart3 img{
+    margin-top: -234px;
+}
+.cart3-details {
+    margin-top:-98px ;
+}
+/* .........................................cart end.................................... */
+
+
+/* ........................................menu start................................... */
+.menu {
+    display: flex;
+    justify-content: space-between;
+   
+    align-items: center;
+}
+.menu-img {
+    padding-left: 0;
+    margin-left: -38px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+/* ..........................menu end................................................... */
+
+/* ..............................services start......................................... */
+.services-title {
+
+    text-align: center;
+}
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.service {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.service:hover{
+    color: rgb(164, 85, 29);
+}
+
+
+
+
+/* ..................................mobile view........................................ */
+@media (max-width:768px){
+    body{
+        margin: 0px;
+        padding: 0px 20px;
+        text-align: center;
+    }
+    .dropbtn{
+        display: none;
+    }
+    
+    .banner {
+        display: flex;
+        flex-direction: column;
+        
+        margin-top: 40px;
+        gap: 20px;
+    }
+    .banner-img{
+        display: flex;
+        align-items: center;
+    }
+    .banner-img img {
+        width: 90%;
+        height: auto;
+    }
+    .cart{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+    }
+    .mn-title h1{
+        margin: 10;
+        line-height: 40px;
+    }
+    .cart1 {
+        flex: 1;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 10px 10px;
+    }
+    .cart1 img{
+        margin-top: -60px;
+        height: 200px;
+    }
+
+    .item-name{
+        line-height: 40px;
+    }
+    .cart2 {
+        flex: 1;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 10px 10px;
+    }
+    .cart2 img{
+        height: 400px;
+        margin-top: -200px;
+    }
+    .cart3 {
+        flex: 1;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 10px 10px;
+    }
+    .cart3-img img {
+        height: 480px;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .mn-title{
+        text-align: center;
+        margin: 0px auto;
+        padding: 100px 0px;
+    }
+    .menu-img {
+        padding: 0;
+        margin-left: 80px;
+        
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .menu-img img {
+       width: 100%;
+       height: auto;
+    }
+    .services {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        gap: 8px;
+    }
+
+}
+
+
+
